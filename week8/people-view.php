@@ -45,8 +45,8 @@ include('includes/header.php');?>
 <?php 
 if($feedback == ''){
     echo '<ul>';
-    echo '<li><b>First Name:</b>'.$firstName.' </li>';
-    echo '<li><b>Last Name:</b>'.$lastName.' </li>';
+    echo '<li><b>First Name:</b>'.$FirstName.' </li>';
+    echo '<li><b>Last Name:</b>'.$LastName.' </li>';
     echo '<li><b>Ocuppation:</b>'.$Occupation.' </li>';
     echo '<li><b>Email:</b>'.$Email.' </li>';
     echo '<li><b>Birthdate:</b>'.$BirthDate.' </li>';
