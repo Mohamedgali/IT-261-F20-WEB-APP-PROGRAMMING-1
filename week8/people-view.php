@@ -9,7 +9,7 @@ if(isset($_GET['id'])) {
     header('Location:people.php');
 }
 
-$sql = 'SELECT * FROM People WHERE peopleID = '.$id.'';
+$sql = 'SELECT * FROM People WHERE PeopleID = '.$id.'';
 
 
 // connect to the db
